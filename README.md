@@ -1,6 +1,10 @@
 # Overview
 
-This is a helper script that uses Puppeteer, a headless browsing automation library, to bulk pull down reviews for a given set of Amazon ASINs.
+This is a helper script that uses Puppeteer, a headless browsing automation library, to bulk pull down reviews for a given set of Amazon ASINs. 
+
+It generally takes less than 10 seconds to pull tens to hundreds of reviews, and exports to `.csv`, which you can easily load into Excel or similar.
+
+Parameters are tunable by editing `config.ts` or the code itself in `index.ts`.
 
 ## To Install
 
