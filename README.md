@@ -11,7 +11,7 @@ Parameters are tunable by editing `config.ts` or the code itself in `index.ts`.
 Dependencies:
 
 - Install [Node.js](https://nodejs.org/en/download) for your system. The LTS (20) is fine.
-- [VSCode](https://code.visualstudio.com/) is recommended as a good, extensible code editor that comes with a terminal you can use.
+- [VSCode](https://code.visualstudio.com/) is recommended as a good, extensible code editor that comes with a terminal you can use. I don't expect you to run code, but I figure you'll be curious and need to edit ASINs and tweak parameters and stuff if you want.
 
 To get this code on your machine:
 
