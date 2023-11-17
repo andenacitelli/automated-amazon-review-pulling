@@ -39,3 +39,9 @@ Run `npm run start` in your terminal, which is configured to run the main `index
 ## Tweaks
 
 If you want to see the browser as it's doing stuff, modify `index.ts` and change the `{ headless: "new" }` section to `{ headless: false }`. The next time you run the program, it'll get you started.
+
+# FAQ
+
+## Are there any limits on how frequently I can run this?
+
+Most large companies somewhat limit scraping on their sites - expect some slight inconsistency and a few retries if you're running these against fifty products at once, or going through a lot of reviews, or something. I tried to build this pretty resilient w/ retry logic that would still work well, just take longer, so we'll see if it pays off.
